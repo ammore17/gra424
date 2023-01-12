@@ -1,7 +1,32 @@
-.bowl {
+
+.layer1 {
     display: flex;
     margin: auto;
-    width: 35.7142855vw;
-    height: 35.7142855vw;
+    width: 100vw;
+    height: 100vw;
     background: white;
+}
+.layer2 {
+    display: flex;
+    background: white;
+    border: 1px solid black;
+    width: 71.428571vw;
+    height: 71.428571vw;
+    margin: auto;
+}
+.layer3 {
+    display: flex;
+    background: white;
+    border: 1px solid black;
+    width: 42.857143vw;
+    height: 42.857143vw;
+    margin: auto;
+}
+.layer4 {
+    display: flex;
+    background: white;
+    border: 1px solid black;
+    width: 14.285714vw;
+    height: 14.285714vw;
+    margin: auto; 
 }
