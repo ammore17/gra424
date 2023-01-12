@@ -1,15 +1,11 @@
 
-element.style{
-
-}
 .layer1 {
     display: flex;
-    background: white;
+    margin: auto;
     width: 100vw;
     height: 100vw;
-    margin: auto;
+    background: white;
 }
-
 .layer2 {
     display: flex;
     background: white;
@@ -18,20 +14,19 @@ element.style{
     height: 71.428571vw;
     margin: auto;
 }
-
 .layer3 {
     display: flex;
     background: white;
-    border: 1px solid black;
+    border: .5px solid black;
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
 }
-
 .layer4 {
     display: flex;
     background: black;
     width: 14.285714vw;
     height: 14.285714vw;
-    margin: auto;
+    margin: auto; 
 }
+
