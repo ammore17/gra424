@@ -21,7 +21,6 @@ body {
 .layer3 {
     display: flex;
     background: black;
-    border: .5px solid black;
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
