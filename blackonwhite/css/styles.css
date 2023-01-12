@@ -1,10 +1,11 @@
 
 .layer1 {
     display: flex;
-    margin: auto;
+    background: white;
     width: 100vw;
     height: 100vw;
-    background: white;
+    margin: auto;
+    overflow: hidden;
 }
 .layer2 {
     display: flex;
@@ -13,6 +14,7 @@
     width: 71.428571vw;
     height: 71.428571vw;
     margin: auto;
+    overflow: hidden;
 }
 .layer3 {
     display: flex;
@@ -21,6 +23,7 @@
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
+    overflow: hidden;
 }
 .layer4 {
     display: flex;
@@ -28,5 +31,6 @@
     width: 14.285714vw;
     height: 14.285714vw;
     margin: auto; 
+    overflow: hidden;
 }
 
