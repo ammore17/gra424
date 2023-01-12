@@ -1,0 +1,82 @@
+html,
+
+body{
+    margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 3%;
+	background-color: black;
+}
+h1{
+    color : #ffff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+p {
+    
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+header {
+    background-color: var(--gray-dark);
+    padding: 1rem 0
+}
+
+.overview {
+    background-color: var(--gray);
+    color: #ffff;
+    padding: 4rem 0;
+}
+
+figure {
+    margin-top: 2rem;
+}
+
+figure img {
+    margin-bottom: 1rem;
+}
+
+figcaption{
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.sample{
+    padding:5rem 0;
+}
+
+footer {
+    background-color: var(--gray-light);
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+@media screen and (min-width: 800px) {
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
