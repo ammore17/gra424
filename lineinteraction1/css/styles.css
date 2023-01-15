@@ -19,7 +19,7 @@ body {
     margin: auto;
 }
 .square2 {
-    display: grid;
+    display: flex;
     background-color: white;
     width: 42.857143vw;
     height: 42.857143vh;
@@ -27,7 +27,7 @@ body {
 }
 
 .line{
-    display: flex;
+    display: grid;
     background-color: black;
     width: 42.857143vw;
     height: 2.75vh;
