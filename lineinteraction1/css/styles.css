@@ -23,7 +23,6 @@ body {
     grid-template-columns: 1fr;
     gap: 15px;
     margin: auto;
-    margin-left: 0;
 }
 
 .line {
