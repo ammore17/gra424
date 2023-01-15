@@ -1,7 +1,6 @@
 
 body {
     overflow: hidden;
-    margin: auto;
 }
 
 .layer1 {
@@ -9,6 +8,7 @@ body {
     background: white;
     width: 100vw;
     height: 100vw;
+    margin: auto;
 }
 .layer2 {
     display: flex;
@@ -16,7 +16,7 @@ body {
     border: 1px solid black;
     width: 71.428571vw;
     height: 71.428571vw;
-
+    margin: auto;
 }
 .layer3 {
     display: flex;
