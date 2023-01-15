@@ -1,0 +1,37 @@
+
+body {
+    overflow: hidden;
+    display: block;
+    margin: 8px;
+}
+
+.layer1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+.layer2 {
+    display: flex;
+    background: white;
+    border: 1px solid black;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+.layer3 {
+    display: flex;
+    background: white;
+    border: .5px solid black;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.layer4 {
+    display: flex;
+    background: black;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto; 
+}
+
