@@ -23,6 +23,8 @@ body {
     grid-template-columns: 1fr;
     gap: 15px;
     margin: auto;
+    height: 42.857143vh;
+    width: 42.857143vw;
 }
 
 .line {
