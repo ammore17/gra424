@@ -1,23 +1,31 @@
 
 body {
     overflow: hidden;
-    display: block;
-    margin: 8px;
+    line-height: 1.5;
+}
+.line-left{
+    display: flex;
+    background-color: black;
+    width: 0.195vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-left: 0;
 }
 
-.row {
+.line{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    background-color: black;
+    width: 0.195vw;
+    height: 42.857143vh;
     margin: auto;
 }
-.box {
+.line-right {
     display: flex;
-    background: white;
-    border: 1px solid black;
-    width: 71.428571vw;
-    height: 71.428571vh;
+    background: black;
+    width: 0.195vw;
+    height: 42.857143vh;
     margin: auto;
+    margin-right: 0;
 }
 
 
