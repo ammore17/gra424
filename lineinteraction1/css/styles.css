@@ -28,7 +28,7 @@ body {
 .line-left {
     display: flex;
     background-color: black;
-    width: 3vw;
+    width: 2.7vw;
     height: 42.857143vh;
     margin: auto;
     margin-left: 0;
@@ -37,14 +37,14 @@ body {
 .line{
     display: flex;
     background-color: black;
-    width: 3vw;
+    width: 2.7vw;
     height: 42.857143vh;
     margin: auto;
 }
 .line-right {
     display: flex;
     background: black;
-    width: 3vw;
+    width: 2.7vw;
     height: 42.857143vh;
     margin: auto;
     margin-right: 0;
