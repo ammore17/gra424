@@ -28,8 +28,8 @@ body {
 .line-left {
     display: flex;
     background-color: black;
-    width: 2.75vw;
-    height: 42.857143vh;
+    width: 42.857143vw;
+    height: 2.75vh;
     margin: auto;
     margin-left: 0;
 }
@@ -37,15 +37,15 @@ body {
 .line{
     display: flex;
     background-color: black;
-    width: 2.75vw;
-    height: 42.857143vh;
+    width: 42.857143vw;
+    height: 2.75vh;
     margin: auto;
 }
 .line-right {
     display: flex;
     background: black;
-    width: 2.75vw;
-    height: 42.857143vh;
+    width: 42.857143vw;
+    height: 2.75vh;
     margin: auto;
     margin-right: 0;
 }
