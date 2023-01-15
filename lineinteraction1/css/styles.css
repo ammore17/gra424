@@ -23,7 +23,6 @@ body {
     grid-template-columns: 1fr;
     gap: 15px;
     margin: auto;
-    height: 42.857143vh;
     width: 42.857143vw;
 }
 
@@ -31,7 +30,7 @@ body {
     display: grid;
     background-color: black;
     width: 42.857143vw;
-    height: 2.75vh;
+    height: 2vh;
     margin: auto;
 }
 
