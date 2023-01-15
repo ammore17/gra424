@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 .square1 {
-    display: flex;
+    display: grid;
     background-color: white;
     border-style: solid;
     border-color: black;
