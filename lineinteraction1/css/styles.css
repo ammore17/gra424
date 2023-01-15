@@ -19,14 +19,14 @@ body {
     margin: auto;
 }
 .square2 {
-    display: flex;
-    background-color: white;
-    width: 42.857143vw;
-    height: 42.857143vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
     margin: auto;
+    margin-left: 0;
 }
 
-.line{
+.line {
     display: grid;
     background-color: black;
     width: 42.857143vw;
