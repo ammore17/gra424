@@ -1,6 +1,6 @@
 
 body {
-    display: block;
+    overflow: hidden;
     margin: auto;
 }
 
@@ -9,7 +9,6 @@ body {
     background: white;
     width: 100vw;
     height: 100vw;
-    overflow: hidden;
 }
 .layer2 {
     display: flex;
@@ -17,20 +16,17 @@ body {
     border: 1px solid black;
     width: 71.428571vw;
     height: 71.428571vw;
-    overflow: hidden;
 }
 .layer3 {
     display: flex;
     background: black;
     width: 42.857143vw;
     height: 42.857143vw;
-    overflow: hidden;
 }
 .layer4 {
     display: flex;
     background: white;
     width: 14.285714vw;
     height: 14.285714vw;
-    overflow: hidden;
 }
 
