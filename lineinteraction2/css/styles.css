@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 .square1 {
-    display: flex;
+    display: grid;
     background-color: white;
     border-style: solid;
     border-color: black;
@@ -19,35 +19,28 @@ body {
     margin: auto;
 }
 .square2 {
-    display: flex;
-    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 13px;
+    margin: auto;
     width: 42.857143vw;
-    height: 42.857143vh;
-    margin: auto;
 }
-.line-left {
-    display: flex;
+
+.line {
+    display: grid;
     background-color: black;
-    width: 2.75vw;
-    height: 42.857143vh;
+    width: 42.857143vw;
+    height: 2.3vh;
     margin: auto;
-    margin-left: 0;
 }
-
-.line{
+.square3 {
     display: flex;
-    background-color: black;
-    width: 2.75vw;
-    height: 42.857143vh;
-    margin: auto;
+    background: white;
+    width: 14.285714vw;
+    height: 14.2285714vh;
+    position: absolute;
+    justify-content: space-between;
 }
-.line-right {
+.sq svg {
     display: flex;
-    background: black;
-    width: 2.75vw;
-    height: 42.857143vh;
-    margin: auto;
-    margin-right: 0;
 }
-
-
