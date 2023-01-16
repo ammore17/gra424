@@ -34,7 +34,7 @@ body {
     margin: auto;
 }
 .square3 {
-    display: grid;
+    display: flex;
     background: white;
     width: 14.285714vw;
     grid-template-columns: 1fr;
