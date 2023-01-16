@@ -34,12 +34,12 @@ body {
     margin: auto;
 }
 .square3 {
-    display: flex;
+    display: grid;
     background: white;
     width: 14.285714vw;
-    height: 14.2285714vh;
-    position: absolute;
-    justify-content: space-between;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: auto;
 }
 .square3 svg {
     display: block;
