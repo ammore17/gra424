@@ -34,7 +34,7 @@ body {
     margin: auto;
 }
 .square3 {
-    display: flex;
+    display: grid;
     background: white;
     width: 14.285714vw;
     height: 14.2285714vh;
