@@ -34,10 +34,9 @@ body {
     margin: auto;
 }
 .box {
-    display: grid;
-    background: white;
-    width: 14.285714vw;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin: auto;
+    width: 100px;
+    height: 500px;
+    border: solid 5px #000;
+    border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 240px 50%/60px;
 }
