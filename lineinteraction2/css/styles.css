@@ -33,14 +33,11 @@ body {
     height: 2.3vh;
     margin: auto;
 }
-.square3 {
-    display: flex;
+.box {
+    display: grid;
     background: white;
     width: 14.285714vw;
     grid-template-columns: 1fr;
     gap: 10px;
     margin: auto;
-}
-.square3 svg {
-    display: block;
 }
