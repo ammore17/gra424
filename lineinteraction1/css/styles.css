@@ -4,35 +4,47 @@ body {
 }
 .container {
     display: flex;
-    background-color: white;
-    width: 100%;
+    margin: auto;
+    width: 100vw;
     height: 100vh;
 }
 .square1 {
     display: flex;
     background-color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: .25px;
+    border: o.25px solid black;
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
 }
 .square2 {
+    background-color: white;
     display: flex;
-    grid-template-columns: 1fr;
-    gap: 13px;
     margin: auto;
+    height: 42.857143vh;
+    width: 42.857143vw;
+}
+.lineleft {
+    background-color: black;
+    display: flex;
+    margin: auto;
+    margin-left: 0;
+    height: 2.3vh;
     width: 42.857143vw;
 }
 
 .line {
     display: flex;
-    position: absolute;
     background-color: black;
     width: 42.857143vw;
     height: 2.3vh;
     margin: auto;
 }
-
+.lineright {
+    background-color: black;
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+    height: 2.3vh;
+    width: 42.857143vw;
+}
 
