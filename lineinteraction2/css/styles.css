@@ -34,6 +34,13 @@ body {
     margin: auto;
   }
   .linebox {
+    display: flex;
+    position: relative;
+    width: 14.2857vw;
+    height: 0.1vh;
+    margin: auto;
+  }
+  .curved {
     display: grid;
     position: absolute;
     grid-template-columns: 1fr;
@@ -52,3 +59,4 @@ body {
     border-top-left-radius: 150px;
     border-bottom-right-radius: 150px;
   }
+  
