@@ -52,11 +52,8 @@ body {
     display: grid;
     height: 2vh;
     width: 14.2857vw;
-    margin-left: 100%;
-    border-top: 10px solid white;
-    border-left: 10px solid white;
-    border-top-left-radius: 150px;
-    border-bottom-right-radius: 120px;
+    margin: auto;
+    position: absolute;
   }
     .box {
         --mask:
