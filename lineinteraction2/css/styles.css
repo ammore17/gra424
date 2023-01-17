@@ -52,8 +52,8 @@ body {
     display: grid;
     height: 2vh;
     width: 14.2857vw;
-    margin: auto;
-    position: absolute;
+    margin-left: 100%;
+
   }
     .box {
         --mask:
