@@ -39,9 +39,23 @@ body {
     width: 14.2857vw;
     height: 0.1vh;
     margin: auto;
-    --mask:
-    radial-gradient(45.25px at 50% calc(100% + 36.00px),#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% - 36px) calc(50% - 14px + .5px)/72px 28px ,
-    radial-gradient(45.25px at 50% -36px,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) 50% calc(50% + 14px)/72px 28px ;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
   }
+  .curved {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr;
+    gap: 0.5px;
+    margin: auto;
+    margin-top: 14%;
+  }
+  .whiteline {
+    display: grid;
+    height: 1vh;
+    width: 14.2857vw;
+    margin-left: 90%;
+    border-top: 12px solid red;
+    border-left: 10px solid red;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+  }
+  
