@@ -18,6 +18,7 @@ body {
 }
 .square2 {
     background-color: white;
+    flex-wrap: wrap;
     display: flex;
     margin: auto;
     height: 42.857143vh;
@@ -35,14 +36,12 @@ body {
 .line {
     display: flex;
     background-color: black;
-    flex-wrap: wrap;
     width: 42.857143vw;
     height: 2.3vh;
     margin: auto;
 }
 .linebottom {
     background-color: black;
-    flex: 1 1 100px;
     margin: auto;
     margin-bottom: 0;
     height: 2.3vh;
