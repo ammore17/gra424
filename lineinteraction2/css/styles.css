@@ -33,12 +33,14 @@ body {
     height: 2.3vh;
     margin: auto;
 }
-.box {
-    display: flex;
+.whiteline {
+    display: grid;
     position: absolute;
     width: 14.2857vw;
     height: 14.2857vh;
-    border: solid 5px #fff;
+    margin: auto;
+    margin-left: 15%;
+    border: solid 8px #fff;
     border-color: transparent transparent #fff transparent;
-    border-radius: 0 0 240px 50%/60px;
-}
+    border-radius: 0 0 300px 50%/100px;
+  }
