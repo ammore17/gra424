@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 .square1 {
-    display: grid;
+    display: flex;
     background-color: white;
     border-style: solid;
     border-color: black;
@@ -19,7 +19,7 @@ body {
     margin: auto;
 }
 .square2 {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     gap: 13px;
     margin: auto;
@@ -27,7 +27,8 @@ body {
 }
 
 .line {
-    display: grid;
+    display: flex;
+    position: absolute;
     background-color: black;
     width: 42.857143vw;
     height: 2.3vh;
