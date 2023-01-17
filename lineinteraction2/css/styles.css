@@ -40,14 +40,7 @@ body {
     height: 0.1vh;
     margin: auto;
   }
-  .curved {
-    display: grid;
-    position: absolute;
-    grid-template-columns: 1fr;
-    gap: 0.8px;
-    margin: auto;
-    margin-top: 14%;
-  }
+
   .whiteline {
     display: grid;
     position: relative;
