@@ -39,12 +39,6 @@ body {
     width: 14.2857vw;
     height: 14.2857vh;
     border: solid 5px #fff;
-    border-color: transparent transparent #000 transparent;
+    border-color: transparent transparent #fff transparent;
     border-radius: 0 0 240px 50%/60px;
-}
-.whiteline {
-    display: grid;
-    background-color: #fff;
-    margin-left: 28.571428vw;
-    margin-top: 28.571428vh;
 }
