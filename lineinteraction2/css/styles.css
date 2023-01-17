@@ -50,6 +50,7 @@ body {
   }
   .whiteline {
     display: grid;
+    position: relative;
     height: 1vh;
     width: 14.2857vw;
     margin-left: 90%;
