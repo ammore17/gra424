@@ -35,7 +35,7 @@ body {
 .line {
     display: flex;
     background-color: black;
-    gap: 2px;
+    flex-wrap: wrap;
     width: 42.857143vw;
     height: 2.3vh;
     margin: auto;
@@ -43,6 +43,7 @@ body {
 .linebottom {
     background-color: black;
     display: flex;
+    flex: 1 1 150px;
     margin: auto;
     margin-bottom: 0;
     height: 2.3vh;
