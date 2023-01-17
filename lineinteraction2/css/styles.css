@@ -32,15 +32,30 @@ body {
     width: 42.857143vw;
     height: 2.3vh;
     margin: auto;
-}
-.whiteline {
+  }
+  .linebox {
+    display: flex;
+    position: relative;
+    width: 14.2857vw;
+    height: 0.1vh;
+    margin: auto;
+  }
+  .curved {
     display: grid;
     position: absolute;
-    width: 14.2857vw;
-    height: 14.2857vh;
+    grid-template-columns: 1fr;
+    gap: 0.5px;
     margin: auto;
-    margin-left: 15%;
-    border: solid 8px #fff;
-    border-color: transparent transparent #fff transparent;
-    border-radius: 0 0 300px 50%/100px;
+    margin-top: 14%;
   }
+  .whiteline {
+    display: grid;
+    height: 1vh;
+    width: 14.2857vw;
+    margin-left: 90%;
+    border-top: 12px solid red;
+    border-left: 12px solid red;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  
