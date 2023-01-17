@@ -42,7 +42,9 @@ body {
 }
 .whiteline {
     display: grid;
+    background-color: #fff;
     width: 14.2857vw;
     height: 14.2857vh;
-    margin: auto;
+    margin-left: 28.571428vw;
+    margin-top: 28.571428vh;
 }
