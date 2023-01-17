@@ -36,7 +36,7 @@ body {
 .box {
     width: 100px;
     height: 500px;
-    border: solid 5px #000;
+    border: solid 5px #fff;
     border-color: transparent transparent #000 transparent;
     border-radius: 0 0 240px 50%/60px;
 }
