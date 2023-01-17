@@ -40,3 +40,9 @@ body {
     border-color: transparent transparent #000 transparent;
     border-radius: 0 0 240px 50%/60px;
 }
+.whiteline {
+    display: grid;
+    width: 14.2857vw;
+    height: 14.2857vh;
+    margin: auto;
+}
