@@ -58,4 +58,18 @@ body {
     border-top-left-radius: 150px;
     border-bottom-right-radius: 120px;
   }
+    .box {
+        --mask:
+          radial-gradient(45.25px at 50% calc(100% + 36.00px),#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% - 36px) calc(50% - 14px + .5px)/72px 28px ,
+          radial-gradient(45.25px at 50% -36px,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) 50% calc(50% + 14px)/72px 28px ;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+      }.box {
+        --mask:
+          radial-gradient(45.25px at 50% calc(100% + 36.00px),#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% - 36px) calc(50% - 14px + .5px)/72px 28px ,
+          radial-gradient(45.25px at 50% -36px,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) 50% calc(50% + 14px)/72px 28px ;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+      }
+  
   
