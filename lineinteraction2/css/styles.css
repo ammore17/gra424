@@ -34,8 +34,10 @@ body {
     margin: auto;
 }
 .box {
-    width: 100px;
-    height: 500px;
+    display: flex;
+    position: absolute;
+    width: 14.2857vw;
+    height: 14.2857vh;
     border: solid 5px #fff;
     border-color: transparent transparent #000 transparent;
     border-radius: 0 0 240px 50%/60px;
@@ -43,8 +45,6 @@ body {
 .whiteline {
     display: grid;
     background-color: #fff;
-    width: 14.2857vw;
-    height: 14.2857vh;
     margin-left: 28.571428vw;
     margin-top: 28.571428vh;
 }
