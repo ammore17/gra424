@@ -43,7 +43,7 @@ body {
 .linebottom {
     background-color: black;
     display: flex;
-    flex: 1 1 150px;
+    flex: 1 1 100px;
     margin: auto;
     margin-bottom: 0;
     height: 2.3vh;
