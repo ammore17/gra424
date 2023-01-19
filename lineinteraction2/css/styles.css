@@ -49,6 +49,7 @@ body {
 }
 .step2 {
   display: flex;
+  position: absolute;
   margin: auto;
   height: 14.285714vh;
   width: 14.285714vw;
