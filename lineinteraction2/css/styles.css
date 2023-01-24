@@ -10,6 +10,7 @@ body {
 }
 .square1 {
   display: flex;
+  flex-wrap: wrap;
   background-color: white;
   border: 0.25px solid black;
   width: 71.428571vw;
@@ -24,14 +25,6 @@ body {
   height: 42.857143vh;
   width: 42.857143vw;
 }
-.linetop {
-  background-color: black;
-  display: flex;
-  margin: auto;
-  margin-top: 0;
-  height: 2.3vh;
-  width: 42.857143vw;
-}
 
 .line {
   display: flex;
@@ -40,17 +33,13 @@ body {
   height: 2.3vh;
   margin: auto;
 }
-.linebottom {
-  background-color: black;
-  margin: auto;
-  margin-bottom: 0;
-  height: 2.3vh;
-  width: 42.857143vw;
-}
+
 .step2 {
   display: flex;
   position: absolute;
   margin: auto;
+  margin-left: 28%;
+  margin-top: 24%;
   height: 14.285714vh;
   width: 14.285714vw;
 }

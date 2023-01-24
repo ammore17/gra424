@@ -24,14 +24,7 @@ body {
     height: 42.857143vh;
     width: 42.857143vw;
 }
-.linetop {
-    background-color: black;
-    display: flex;
-    margin: auto;
-    margin-top: 0;
-    height: 2.3vh;
-    width: 42.857143vw;
-}
+
 
 .line {
     display: flex;
@@ -40,11 +33,5 @@ body {
     height: 2.3vh;
     margin: auto;
 }
-.linebottom {
-    background-color: black;
-    margin: auto;
-    margin-bottom: 0;
-    height: 2.3vh;
-    width: 42.857143vw;
-}
+
 
